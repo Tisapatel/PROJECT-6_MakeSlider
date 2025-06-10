@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donut Slider</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 50px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .logo img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .logo span {
+            color: transparent;
+            background: white;
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .nav-links li a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            position: relative;
+            padding-bottom: 5px;
+            transition: 0.3s ease;
+        }
+
+        .nav-links li.active a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: white;
+            border-radius: 10px;
+        }
+
+        .slider {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            position: relative;
+            flex-direction: column;
+        }
+
+        #carousel-inner .slide {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: all 0.5s ease;
+        }
+
+        #carousel-inner .slide.active {
+            display: flex;
+        }
+
+        .donut-img {
+            width: 400px;
+            height: 300px;
+            object-fit: contain;
+            margin-bottom: 10px;
+            margin-top: 40px;
+        }
+
+        h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 40px;
+            color: white;
+        }
+
+        p {
+            max-width: 500px;
+            color: #fff;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 30px;
+            background: rgba(255, 255, 255, 0.5);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .arrow.left {
+            left: 20px;
+        }
+
+        .arrow.right {
+            right: 20px;
+        }
+    </style>
+</head>
+
+<body id="body">
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./images/logo.png" alt="logo-img">
+                <!-- Crème &<span> Crumble</span> -->
+            </div>
+            <ul class="nav-links">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="./Gallary.html">About</a></li>
+                <li><a href="contectus.html">Contact</a></li>
+                <li><a href="#"><i class="fas fa-search"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="slider">
+        <div class="arrow left" onclick="prevSlide()">&#10094;</div>
+
+        <div id="carousel-inner">
+            <div class="slide active" data-bg="#9c5be5">
+                <h1>Blueberry Donut</h1>
+                <p>Soft, cake-style donut infused with the sweet, tangy flavor of blueberries and finished with a light,
+                    sugary glaze.</p>
+                <img class="donut-img" src="images/purple.png" alt="Blueberry Donut">
+            </div>
+
+            <div class="slide" data-bg="#cc6b81">
+                <h1>Strawberry Donut</h1>
+                <p>Bursting with fruity flavor, this donut features vibrant pink strawberry frosting and rainbow
+                    sprinkles.</p>
+                <img class="donut-img" src="images/pink.png" alt="Strawberry Donut">
+            </div>
+
+            <div class="slide" data-bg="#9f6b4e">
+                <h1>Chocolate Donut</h1>
+                <p>Rich chocolate-flavored donut topped with a sweet glaze and colorful sprinkles for the perfect
+                    crunchy-soft combo.</p>
+                <img class="donut-img" src="images/chochlate.png" alt="Chocolate Donut">
+            </div>
+
+            <div class="slide" data-bg="#5d87c0">
+                <h1>Blue Sky Donut</h1>
+                <p>Chocolate donut with bright blue icing and colorful sprinkles, offering the perfect blend of
+                    sweetness and crunch.</p>
+                <img class="donut-img" src="images/blue.png" alt="Blue Sky Donut">
+            </div>
+        </div>
+
+        <div class="arrow right" onclick="nextSlide()">&#10095;</div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
