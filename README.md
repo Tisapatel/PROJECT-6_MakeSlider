@@ -16,6 +16,7 @@ Topic : Make Slider
 📘 Documention Project Title: Make Slider
 
 📂 Folder Structure:-
+
 PROJECT-6_MakeSlider/
 ├── index.html
 ├── style.css
