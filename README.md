@@ -18,8 +18,11 @@ Topic : Make Slider
 📂 Folder Structure:-
 
 PROJECT-6_MakeSlider/
+
 ├── index.html
+
 ├── style.css
+
 └── script.js
 
 📌 Overview
