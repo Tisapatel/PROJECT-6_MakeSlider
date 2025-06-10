@@ -2,7 +2,7 @@ Topic : Make Slider
 
 * Live Demo Link :- https://project-6-make-slider.vercel.app/
   
-demo :- 
+
 <img width="948" alt="image" src="https://github.com/user-attachments/assets/c6e0c5b3-7bff-4fa9-beb1-ab496101a8a3" />
 <img width="949" alt="image" src="https://github.com/user-attachments/assets/5f3d111e-555d-43d6-b2c9-7a4385ac427f" />
 ![Screenshot 2025-06-10 210233](https://github.com/user-attachments/assets/5c085d33-c1cb-4eec-9c7b-c4beb043e7c2)
