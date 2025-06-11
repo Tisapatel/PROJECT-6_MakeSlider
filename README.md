@@ -1,9 +1,6 @@
 Topic : Make Slider
 
 * Live Demo Link :- https://project-6-make-slider.vercel.app/
-<img width="948" alt="image" src="https://github.com/user-attachments/assets/c6e0c5b3-7bff-4fa9-beb1-ab496101a8a3" />
-
-<img width="949" alt="image" src="https://github.com/user-attachments/assets/5f3d111e-555d-43d6-b2c9-7a4385ac427f" />
 
 ![Screenshot 2025-06-11 121347](https://github.com/user-attachments/assets/0dddb4ef-4613-4253-b3fa-f940e2b03528)
 
@@ -12,6 +9,11 @@ Topic : Make Slider
 ![Screenshot 2025-06-11 121739](https://github.com/user-attachments/assets/caf9454f-08c1-4a8a-83a1-397a9b9fd4dd)
 
 ![Screenshot 2025-06-11 121815](https://github.com/user-attachments/assets/30983c95-b709-4f13-be3e-f8e268053600)
+
+![Screenshot 2025-06-10 210545](https://github.com/user-attachments/assets/614f57c3-fec8-44e1-820d-30ca66926215)
+
+![Screenshot 2025-06-10 210649](https://github.com/user-attachments/assets/4ab332d7-3faf-40f8-aa77-238d929affa2)
+
 
 📘 Documention Project Title: Make Slider
 
