@@ -5,13 +5,13 @@ Topic : Make Slider
 
 <img width="949" alt="image" src="https://github.com/user-attachments/assets/5f3d111e-555d-43d6-b2c9-7a4385ac427f" />
 
-![Screenshot 2025-06-11 121347](https://github.com/user-attachments/assets/70f06ee2-615b-4b30-ad71-d254588a588e)
+![Screenshot 2025-06-11 121347](https://github.com/user-attachments/assets/0dddb4ef-4613-4253-b3fa-f940e2b03528)
 
-![Screenshot 2025-06-10 210353](https://github.com/user-attachments/assets/d20fb049-e2c4-4320-a128-7161323a8498)
+![Screenshot 2025-06-11 121701](https://github.com/user-attachments/assets/9ff316da-e701-480a-b18b-16fbad9239de)
 
-![Screenshot 2025-06-10 210545](https://github.com/user-attachments/assets/6b0ce507-d56d-4c00-a2c6-89eb8336b1f2)
+![Screenshot 2025-06-11 121739](https://github.com/user-attachments/assets/caf9454f-08c1-4a8a-83a1-397a9b9fd4dd)
 
-![Screenshot 2025-06-10 210649](https://github.com/user-attachments/assets/a78d71cd-f982-478c-8a36-d5d1a7cf0b6f)
+![Screenshot 2025-06-11 121815](https://github.com/user-attachments/assets/30983c95-b709-4f13-be3e-f8e268053600)
 
 📘 Documention Project Title: Make Slider
 
