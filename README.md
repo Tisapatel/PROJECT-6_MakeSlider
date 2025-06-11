@@ -5,7 +5,7 @@ Topic : Make Slider
 
 <img width="949" alt="image" src="https://github.com/user-attachments/assets/5f3d111e-555d-43d6-b2c9-7a4385ac427f" />
 
-![Screenshot 2025-06-10 210233](https://github.com/user-attachments/assets/5c085d33-c1cb-4eec-9c7b-c4beb043e7c2)
+![Screenshot 2025-06-11 121347](https://github.com/user-attachments/assets/70f06ee2-615b-4b30-ad71-d254588a588e)
 
 ![Screenshot 2025-06-10 210353](https://github.com/user-attachments/assets/d20fb049-e2c4-4320-a128-7161323a8498)
 
